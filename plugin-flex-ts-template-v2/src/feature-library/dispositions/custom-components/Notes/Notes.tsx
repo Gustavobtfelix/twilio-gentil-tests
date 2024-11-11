@@ -12,7 +12,7 @@ export interface OwnProps {
 }
 
 const Notes = ({ task, notes, saveNotes }: OwnProps) => {
-  const NOTES_MAX_LENGTH = 100;
+  const NOTES_MAX_LENGTH = 500;
 
   const handleChange = (value: string) => {
     saveNotes(value);
