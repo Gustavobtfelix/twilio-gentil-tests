@@ -1,2 +1,0 @@
-tfstate_service_name=tfstate
-tfstate_version=3
